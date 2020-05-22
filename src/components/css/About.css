@@ -1,0 +1,39 @@
+.about-wrapper{
+    background-color: #b4cded;
+    min-height: 100vh;
+}
+
+.about-body{
+    width: 90%;
+}
+
+.about-body h1{
+    color: #ffffff;
+    margin: 0;
+}
+
+.bits-img{
+    width: 400px;
+    height: 300px;
+    border: 10px solid black;
+    animation: img infinite 10s ease;
+}
+
+.divider{
+    margin: 5px auto;
+    width: 100px;
+    height: 2px;
+    background-color: red;
+
+}
+@keyframes img{
+    0%{
+        border: 10px solid white;
+    }
+    50%{
+        border: 10px solid black;
+    }
+    100%{
+        border: 10px solid white;
+    }
+}

@@ -15,13 +15,15 @@ function App() {
     <div className="App">
       <Router>
       <Header/>
-        <Route exact path="/" component={Home}/>
-        <Route path="/career-guidance" component={Career}/>
-        <Route path="/competitions" component={Competitions}/>
-        <Route path="/higher-studies" component={HigherStudies}/>
-        <Route path="/post-placement-life" component={PlacementLife}/>
-        <Route path="/news" component={News}/>
-        <Route path="/about" component={About}/>
+        <div className="wrapper">
+          <Route exact path="/" component={Home}/>
+          <Route path="/career-guidance" component={Career}/>
+          <Route path="/competitions" component={Competitions}/>
+          <Route path="/higher-studies" component={HigherStudies}/>
+          <Route path="/post-placement-life" component={PlacementLife}/>
+          <Route path="/news" component={News}/>
+          <Route path="/about" component={About}/>
+        </div>
       </Router>
     </div>
   );
