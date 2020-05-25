@@ -1,9 +1,10 @@
 import React from 'react'
+import NewsCard from './NewsCard'
 
 const Home = () => {
     return (
         <div>
-            from home
+        from home
         </div>
     )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import './css/About.css'
 import Bits from '../img/bits-goa-campus.jpg'
 import Card from './Card'
+import Person from '../img/avatar.jpeg'
 
 const About = () => {
     return (
@@ -25,16 +26,16 @@ const About = () => {
                       <h2 className="heading-quote">Meet the Team
                       </h2>
                       <div className="divider"></div>
-                      <div className="row">
+                      <div style={{marginTop:'50px'}} className="row">
                       <div className="col-md-6">
-                        <Card img="" name="Nikhil" title="pres"/>
-                        <Card img="" name="Nikhil" title="pres"/>
-                        <Card img="" name="Nikhil" title="pres"/>
+                        <Card img={Person} name="Rahul Bubna" title="President, Student Union 2020"/>
+                        <Card img={Person} name="Kushagra Singh" title="Chief Editor"/>
+                        <Card img={Person} name="Deepak jain" title="Web Manager"/>
                       </div>
                       <div className="col-md-6">
-                      <Card img="" name="Nikhil" title="pres"/>
-                      <Card img="" name="Nikhil" title="pres"/>
-                      <Card img="" name="Nikhil" title="pres"/>
+                      <Card img={Person} name="V Abishek Balaji" title="General Secretary, Student Union 2020"/>
+                      <Card img={Person} name="Shobit Pandita" title="Chief Editor"/>
+                      <Card img={Person} name="Akhilesh Parwal" title="Web Manager"/>
                       </div>
                       </div>
                     </div>

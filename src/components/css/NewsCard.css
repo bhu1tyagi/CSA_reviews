@@ -1,0 +1,42 @@
+.news-card{
+    width: 800px;
+    margin: 20px auto;
+    min-height: 40vh;
+    background-color: white;
+}
+
+.nc-img{
+    width: 50%;
+}
+
+.nc-img img{
+    height: 99.9%;
+    width: 99.9%;
+    padding: 0.5px;
+}
+
+.nc-body{
+    margin: 50px auto;
+    margin-bottom: 20px;
+}
+
+.nc-title h2{
+    font-weight: bold;
+}
+
+.nc-para{
+    color: #505050;
+}
+
+.nc-divider{
+    width: 350px;
+    background-color: #444;
+    margin: 0 auto;
+    height: 2px;
+}
+
+.nc-footer{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
